@@ -1304,10 +1304,10 @@ MonoBehaviour:
   useAssignedLayers: 0
   DynamicPrefabs: []
   DynamicMaterials:
-  - {fileID: 2100000, guid: 3f7098e4bed1c66459f060269cbbb1f2, type: 2}
-  - {fileID: 2100000, guid: aba2fb9b099031745894a7c16372932a, type: 2}
-  - {fileID: 2100000, guid: abff492ccafb6b5469c6cebf154022a2, type: 2}
   - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: aba2fb9b099031745894a7c16372932a, type: 2}
+  - {fileID: 2100000, guid: 3f7098e4bed1c66459f060269cbbb1f2, type: 2}
+  - {fileID: 2100000, guid: abff492ccafb6b5469c6cebf154022a2, type: 2}
   - {fileID: 2100000, guid: cba3c0d57ad1bcc4a965c46121ae6ca5, type: 2}
   LightMapsNear: []
   LightMapsFar: []

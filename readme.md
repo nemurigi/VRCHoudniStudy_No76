@@ -1,10 +1,17 @@
+# VRC Houdini 勉強会 No.76
+![当日の様子](Images/VRC_Photo.png)
+
+- 2024年1月7日に行われたVRC Houdini勉強会No.76の発表のアウトラインとサンプル
+- テーマ「初心者大歓迎」
+- FBXを使ったメッシュアニメーションの書き出しの方法を紹介した
+
 ## 0.シミュレーションのセットアップ
 - RBD Bullet Solverを使った破壊シミュレーション
 - RBD Bullet Solverのサンプル例をもとに調整
 - ノードを右クリック -> Helpからノードのドキュメントを開ける
 - ExamplesのLoadを押すことで現在のhipファイル内にサンプルノードを置いてくれる
 ## 1.FBX Output
-[FBX Output]()を使った静的なFBXの書き出し   
+[FBX Output](https://www.sidefx.com/ja/docs/houdini/nodes/top/ropfbx.html)を使った静的なFBXの書き出し   
 幾つかの注意点がある
 #### Path Attribute
 - primitiveにpath attributeを設定することでサブメッシュに分割される
@@ -29,8 +36,9 @@
 - スキニングはCapture Packed Geometry SOPを使用。`Pack Input`と`Unpack Output`を両方オンにする
 - 単一のGameObjectになるのでUnity側での手動 or スクリプトでの各ピースのオンオフの切り替えができなくなる
 ## 5.Vertex Animation Texture
-[Vertex Animation Texture](Vertex Animation Texture)を使用したVATの書き出し
-- 上手くいっていないが何をしたのかを紹介
+[Vertex Animation Texture](https://www.sidefx.com/ja/docs/houdini/nodes/out/labs--vertex_animation_textures-3.0.html)を使用したVATの書き出し
+- 上手くいっていない
+- 何をしたのかを紹介
 - UnityプロジェクトにShader Graphをインポート
 - SideFXLabsに含まれるURP_VAT3をプロジェクトに追加
     - Package Installatin Guide.txtにはパッケージとして読み込む方法がかいてあるが今回は直接AssetsにD&D
