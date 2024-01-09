@@ -40,7 +40,7 @@
 - スキニングはCapture Packed Geometry SOPを使用。`Pack Input`と`Unpack Output`を両方オンにする
 - 単一のGameObjectになるのでUnity側での手動 or スクリプトでの各ピースのオンオフの切り替えができなくなる
 ## 5.Vertex Animation Texture
-![05](Images/04_FBX_Character_Output.png)   
+![05](Images/05_Vertex_Animation_Texture.png)   
 [Vertex Animation Texture](https://www.sidefx.com/ja/docs/houdini/nodes/out/labs--vertex_animation_textures-3.0.html)を使用したVATの書き出し
 - 上手くいっていない
 - 何をしたのかを紹介
